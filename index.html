@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Авиабилеты</title>
+</head>
+
+
+<!-- Header -->
+    <div class="header__logo">
+        
+        <img class="header__form" src="img/Form.png" alt="Form">
+        <img class="header__plane" src="img/Plane.png" alt="Plane">
+    
+    </div>
+
+<!-- Container -->
+<div class="container">
+
+<!-- Radio -->
+
+    <div class="radio">
+        <div class="radio-switch">
+            <div class="radio-switch__item">
+                <input class="radio-switch__input" type="radio" id="radio_1" name="choose">
+                <label class="radio-switch__label" for="radio_1">САМЫЙ ДЕШЕВЫЙ</label>
+            </div>
+            <div class="radio-switch__item">   
+                <input class="radio-switch__input" type="radio" id="radio_2" name="choose">
+                <label class="radio-switch__label" for="radio_2">САМЫЙ БЫСТРЫЙ</label>
+                <div class="radio-switch__marker" aria-hidden="true"></div>
+            </div>
+        </div>
+    </div>        
+
+<!-- Checkbox -->
+    <div class="checkbox">
+        <div class="check__inner">Количество пересадок</div>
+            <label class="check option">                        
+                <input class="check__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="check__text">Все</span>
+            </label>
+            <label class="check option">                        
+                <input class="check__input" type="checkbox" checked>
+                <span class="check__box"></span>
+                <span class="check__text">Без пересадок</span>                
+            </label>
+            <label class="check option">                                
+                <input class="check__input" type="checkbox" checked>
+                <span class="check__box"></span>
+                <span class="check__text">1 пересадка</span>                
+            </label>
+            <label class="check option">                        
+                <input class="check__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="check__text">2 пересадки</span>               
+            </label>
+            <label class="check option">                        
+                <input class="check__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="check__text">3 пересадки</span>                
+            </label>                
+    </div> 
+
+<!-- Ticket -->
+    <div class="ticket">
+        <div class="ticket__header">
+            <div class="ticket__price">13 400 Р</div>
+            <div class="ticket__logo--container">
+                <img src="img/S7 Logo.png" alt="" class="ticket__logo">
+            </div>
+        </div>
+        <ul class="ticket__variant-list">
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">21ч 15м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">2 пересадки</div>
+                    <div class="ticket__variant-part-value">HKG, JNB</div>
+                </div>
+            </li>
+
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">11:20 – 00:50</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">13ч 30м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">1 пересадка</div>
+                    <div class="ticket__variant-part-value">HKG</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="ticket">
+        <div class="ticket__header">
+            <div class="ticket__price">13 400 Р</div>
+            <div class="ticket__logo--container">
+                <img src="img/S7 Logo.png" alt="" class="ticket__logo">
+            </div>
+        </div>
+        <ul class="ticket__variant-list">
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">21ч 15м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">2 пересадки</div>
+                    <div class="ticket__variant-part-value">HKG, JNB</div>
+                </div>
+            </li>
+
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">11:20 – 00:50</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">13ч 30м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">1 пересадка</div>
+                    <div class="ticket__variant-part-value">HKG</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="ticket">
+        <div class="ticket__header">
+            <div class="ticket__price">13 400 Р</div>
+            <div class="ticket__logo--container">
+                <img src="img/S7 Logo.png" alt="" class="ticket__logo">
+            </div>
+        </div>
+        <ul class="ticket__variant-list">
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">21ч 15м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">2 пересадки</div>
+                    <div class="ticket__variant-part-value">HKG, JNB</div>
+                </div>
+            </li>
+
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">11:20 – 00:50</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">13ч 30м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">1 пересадка</div>
+                    <div class="ticket__variant-part-value">HKG</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="ticket">
+        <div class="ticket__header">
+            <div class="ticket__price">13 400 Р</div>
+            <div class="ticket__logo--container">
+                <img src="img/S7 Logo.png" alt="" class="ticket__logo">
+            </div>
+        </div>
+        <ul class="ticket__variant-list">
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">21ч 15м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">2 пересадки</div>
+                    <div class="ticket__variant-part-value">HKG, JNB</div>
+                </div>
+            </li>
+
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">11:20 – 00:50</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">13ч 30м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">1 пересадка</div>
+                    <div class="ticket__variant-part-value">HKG</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="ticket">
+        <div class="ticket__header">
+            <div class="ticket__price">13 400 Р</div>
+            <div class="ticket__logo--container">
+                <img src="img/S7 Logo.png" alt="" class="ticket__logo">
+            </div>
+        </div>
+        <ul class="ticket__variant-list">
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">21ч 15м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">2 пересадки</div>
+                    <div class="ticket__variant-part-value">HKG, JNB</div>
+                </div>
+            </li>
+
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">11:20 – 00:50</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">13ч 30м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">1 пересадка</div>
+                    <div class="ticket__variant-part-value">HKG</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="ticket">
+        <div class="ticket__header">
+            <div class="ticket__price">13 400 Р</div>
+            <div class="ticket__logo--container">
+                <img src="img/S7 Logo.png" alt="" class="ticket__logo">
+            </div>
+        </div>
+        <ul class="ticket__variant-list">
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">21ч 15м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">2 пересадки</div>
+                    <div class="ticket__variant-part-value">HKG, JNB</div>
+                </div>
+            </li>
+
+            <li class="ticket__variant">
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">MOW – HKT</div>
+                    <div class="ticket__variant-part-value">11:20 – 00:50</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">В пути</div>
+                    <div class="ticket__variant-part-value">13ч 30м</div>
+                </div>
+                <div class="ticket__variant-part">
+                    <div class="ticket__variant-part-label">1 пересадка</div>
+                    <div class="ticket__variant-part-value">HKG</div>
+                </div>
+            </li>
+        </ul>
+    </div><!-- ticket -->
+</div><!-- container -->
+</body>
+</html>
