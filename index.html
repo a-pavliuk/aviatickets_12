@@ -9,35 +9,34 @@
 </head>
 
 
-<!-- Header -->
-    <div class="header__logo">
-        
-        <img class="header__form" src="img/Form.png" alt="Form">
-        <img class="header__plane" src="img/Plane.png" alt="Plane">
-    
-    </div>
+<body>
 
 <!-- Container -->
 <div class="container">
 
+<!-- Header -->
+    <div class="header">
+        <img class="header__logo" src="img/plane.png" alt="">
+    </div>
+
 <!-- Radio -->
 
-    <div class="radio">
+    <form class="radio">
         <div class="radio-switch">
             <div class="radio-switch__item">
-                <input class="radio-switch__input" type="radio" id="radio_1" name="choose">
+                <input class="radio-switch__input" type="radio" id="radio_1" name="choose" checked>
                 <label class="radio-switch__label" for="radio_1">САМЫЙ ДЕШЕВЫЙ</label>
-            </div>
+             </div>
             <div class="radio-switch__item">   
                 <input class="radio-switch__input" type="radio" id="radio_2" name="choose">
                 <label class="radio-switch__label" for="radio_2">САМЫЙ БЫСТРЫЙ</label>
                 <div class="radio-switch__marker" aria-hidden="true"></div>
-            </div>
+             </div>
         </div>
-    </div>        
+    </form>        
 
 <!-- Checkbox -->
-    <div class="checkbox">
+    <form class="checkbox">
         <div class="check__inner">Количество пересадок</div>
             <label class="check option">                        
                 <input class="check__input" type="checkbox">
@@ -64,7 +63,7 @@
                 <span class="check__box"></span>
                 <span class="check__text">3 пересадки</span>                
             </label>                
-    </div> 
+    </form> 
 
 <!-- Ticket -->
     <div class="ticket">
